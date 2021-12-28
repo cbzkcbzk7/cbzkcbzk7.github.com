@@ -1,10 +1,10 @@
 # main links
 main:
    - title: "Home"
-     url: https://www.naver.com
+     url: https://www.cbzkcbzk7.github.io
    - title: "About"
-     url: https://www.naver.com
-   - title: "Blog"
-     url: https://www.naver.com
+     url: /about/
+   - title: "Posts"
+     url: /post/
   # - title: "Sitemap"
   #   url: /sitemap/
