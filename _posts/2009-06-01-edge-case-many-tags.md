@@ -1,10 +1,19 @@
 ---
-title: "Edge Case: Many Tags"
+title: "JAVA"
 categories:
-  - Edge Case
+  - Java
 tags:
   - Java
-  - UI / UX
 ---
 
-This post has many tags.
+
+Hello Java
+
+{% capture fig_img %}
+![Foo]({{ "/assets/images/unsplash-gallery-image-3.jpg" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>한글한글</figcaption>
+</figure>

@@ -124,15 +124,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url:  "https://github.com/cbzkcbzk7"                                                        
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.naver.com/cbzkcbzk7"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:psora93@gmail.com"
 
 
 # Reading Files
