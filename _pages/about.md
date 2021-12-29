@@ -1,28 +1,46 @@
 ---
-permalink: /about/
-title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-last_modified_at: 2021-05-11T10:23:16-04:00
+title: About me
+permalink: "/about/"
+excerpt: Minimal Mistakes is a flexible two-column Jekyll theme.
+last_modified_at: '2021-05-11 10:23:16 -0400'
 toc: true
+gallery:
+- url: "/assets/images/java.png"
+  image_path: "/assets/images/java.png"
+  title: placeholder image 2
 ---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
 
 
-## Notable Features
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), [giscus](https://giscus.app/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
+## Profile
 
-## Demo Pages
+- 이름 : 박소라
+- 생년월일 : 93. 02. 18
+- 이메일 : psora93@gmail.com
+- 학력 : 평택대학교 시각디자인학과 졸업(2013.03~2017.02)
+- 기타 : 신촌 비트캠프 디지털컨버전스 기반 BackEnd중심<br>
+&emsp;&emsp;&emsp;Framework개발자 양성과정 수료(2020.07~2020.12)
+
+## Skills
+<b>Back - end</b><br>
+> <b>JAVA </b><br>
+> <b>SpringFramework </b><br>
+> <b>Mybatis </b>
+
+- Spring Framework기반의 JSP 개발에 대해 이해하고, 개발 가능합니다.
+- MyBatis를 이용한 개발이 가능하고, crud 게시판 개발 경험이 있습니다.
+
+> <b>JavaScript </b><br>
+> <b>HTML </b><br>
+> <b>JQuery </b><br>
+>  <b>JSP </b><br>
+>  <b>CSS</b>
+
+
+## Career
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
@@ -33,11 +51,3 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 | [Sample Collection Page][sample-collection] | Single page from a collection. |
 | [Categories Archive][categories-archive] | Posts grouped by category. |
 | [Tags Archive][tags-archive] | Posts grouped by tag. |
-
-
----
-
-## Credits
-
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.

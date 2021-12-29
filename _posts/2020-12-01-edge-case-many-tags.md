@@ -4,6 +4,16 @@ categories:
 - Java
 tags:
 - Java
+gallery:
+  - url: /assets/images/login.png
+    image_path: /assets/images/login.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/login.png
+    image_path: /assets/images/login.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+
 ---
 
 ><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b>
@@ -14,6 +24,7 @@ tags:
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+{% include gallery id="gallery" layout="half"%}
 </figure>
 내가 생각하는 나의 성격과 친구가 생각하는 나의 성격을 비교함으로써 겉으로 보이는 나의 모습이 어떠한지 파악해볼 수 있는 웹사이트입니다. 성격 검사 웹사이트는 무수히 많지만 이런 유형의 웹사이트는 전혀 없었고, 백 엔드 개발자와 협업하는 방법을 배울 수 있는 나름 가벼운 프로젝트였기 때문에 진행하게 되었습니다.
 백 엔드 개발자와 협업하는 과정에 관해 많이 배울 수 있었던 프로젝트입니다. UI & UX 및 API 명세를 문서로 작성하여 소통하였습니다. 또한, 통신 과정에서 필요한 쿠키나 CORS 등의 개념에 대해서도 서로 많이 배울 수 있었습니다.
