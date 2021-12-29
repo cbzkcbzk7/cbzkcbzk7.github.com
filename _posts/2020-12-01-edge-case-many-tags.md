@@ -1,13 +1,12 @@
 ---
-title: COLDTECT
+title: BIKE MAP
 categories:
-- UI/UX
+- Java
 tags:
-- UI/UX
+- Java
 ---
 
-><b>'내 손 안의 병원' <br>
-> 집에서 간단한 진료와 진단을 할 수 있는 앱</b>
+><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b>
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/login.png" | relative_url }})
@@ -23,6 +22,6 @@ tags:
 * 주요 기능 : 자전거 여행 루트 탐색하기 / 동행 찾기 / 후기 게시판 / 정보 공유
 * GitHub :	[https://github.com/cbzkcbzk7](https://github.com/cbzkcbzk7)																																				
 
-| Toolkit   |  Deployment  |
-| -------- | -------- | 
-|Illustrator, InDesign| 생각중|
+|Front - end | Back - end | Toolkit   |  Deployment  |
+| -------- | -------- | -------- | -------- 
+| JSP, HTML, JavaScript, JQuery| JAVA, MyBatis, Spring Framework, Oralce | STS, Database Developer     | GitHub |
