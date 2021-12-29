@@ -30,11 +30,12 @@ gallery:
  <b>Mybatis </b><br>
  <b>Oracle </b><br>
  <b>MariaDB </b><br>
-  <b>Altibase</b>
- 
+  <b>Altibase</b><br>
+ <b>Docker</b>
 
 - Spring Framework기반의 JSP 개발에 대해 이해하고, 개발 가능합니다.
 - MyBatis를 이용한 개발이 가능하고, crud 게시판 개발 경험이 있습니다.
+- Docker를 이용한 서버구축의 경험이 있습니다.
 
 > <b>Front - end</b><br>
 
@@ -46,11 +47,11 @@ gallery:
 
 - 웹 프로젝트의 화면 개발을 통해 HTML, JavaScript, jQuery,Ajax에 대한 개발 경험이 있습니다.
 
-> <b>Deployment</b><br>
+> <b>Toolkit</b><br>
 
 <b>IntelliJ</b><br>
 <b>Eclipse</b><br>
-<b>Docker</b><br>
+
 
 > <b>Version Control</b><br>
 
@@ -62,6 +63,7 @@ gallery:
 > <b>Certificate</b><br>
 
 <b>정보처리기사(필기)</b><br>
+<b>전자정부프레임워크 교육 수료</b>
 ## Career
 ><b> (주)미래손</b>&nbsp;(2021.02 ~ 현재)
 
@@ -73,5 +75,5 @@ JAVA 기반의 풀스택 웹 개발 업무를 담당하고 있으며, 전반적�
 | ------------------------------------------- | ----------------------------------------------------- |
 |<b>부천시 스마트 챌린지 사업</b> <br>- 지하철 경로 계산 |Java, Restful, 다익스트라 알고리즘을 사용한 지하철 최단경로 개발<br>(2021.02 ~ 2021.04)|
 | <b>KT</b><br>- 홈인터넷전화 해외IP 발신호 CID표시를 위한 개발 | Java, JSP, Atibase를 사용한 CRUD 게시판 개발<br>(2021.04 ~ 2021.08)|
-| <b>자동차손해배상진흥원</b><br>- 민원관리시스템 구축 | Java, SpringFramwork, JSP를 사용한 유지보수<br>(2021.04 ~ 2021.10)|
-| <b>에스파이온</b><br>- 의료용 영상회의 및 협업메신저 개발 | Docker를 이용한 서버설치<br>(2021.11 ~ 현재)|
+| <b>자동차손해배상진흥원</b><br>- 민원관리시스템 구축 | Java, 전자정부프레임워크, JSP를 사용한 유지보수<br>(2021.04 ~ 2021.10)|
+| <b>에스파이온</b><br>- 의료용 영상회의 및 협업메신저 개발 | Docker를 이용한 서버구축<br>(2021.11 ~ 현재)|

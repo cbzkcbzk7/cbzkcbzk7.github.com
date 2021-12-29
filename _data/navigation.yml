@@ -4,7 +4,7 @@ main:
      url: https://cbzkcbzk7.github.io/
    - title: "About"
      url: /about/
-   - title: "Posts"
+   - title: "Project"
      url: /post/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+   - title: "Communication"
+     url: /post/

@@ -5,19 +5,18 @@ categories:
 tags:
 - Java
 gallery:
-  - url: /assets/images/login.png
-    image_path: /assets/images/login.png
+  - url: /assets/images/logind.png
+    image_path: /assets/images/logind.png
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: /assets/images/login.png
-    image_path: /assets/images/login.png
+  - url: /assets/images/logind.png
+    image_path: /assets/images/logind.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
 
 ---
 
-><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b>
-
+><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b>
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/login.png" | relative_url }})
 {% endcapture %}
