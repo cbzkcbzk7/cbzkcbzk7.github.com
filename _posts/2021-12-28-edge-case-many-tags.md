@@ -17,11 +17,10 @@ gallery:
   image_path: "/assets/images/pic9.png"
   alt: placeholder image 9
   title: Image 28 title caption
-
 ---
 
 ><b>'내 손 안의 병원' <br>
-> 집에서 간단한 진료와 진단을 할 수 있는 앱</b>
+> 집에서 간단한 진료와 진단을 할 수 있는 앱</b><br>(2017.03 ~ 2017.06)
 
 
 {% capture fig_img %}

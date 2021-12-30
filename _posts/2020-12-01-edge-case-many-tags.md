@@ -20,7 +20,7 @@ gallery2:
   title: Image 4 title caption
 ---
 
-><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b>
+><b>자전거 여행루트 탐색과 동행찾기가 가능한 웹</b> <br>(2020.09 ~ 2020.12)
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/pic5.png" | relative_url }})
 {% endcapture %}
@@ -46,7 +46,7 @@ gallery2:
 
 
 * 주요 기능 : 자전거 여행 루트 탐색하기 / 동행 찾기 / 후기 게시판 / 정보 공유
-* GitHub :	[https://github.com/cbzkcbzk7](https://github.com/cbzkcbzk7)																																				
+* GitHub :	[https://github.com/cbzkcbzk7/bikemappj.github.com](https://github.com/cbzkcbzk7/bikemappj.github.com)																																				
 
 |Front - end | Back - end | Toolkit   |  Deployment  |
 | -------- | -------- | -------- | -------- 
