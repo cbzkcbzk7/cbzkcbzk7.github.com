@@ -29,7 +29,7 @@ gallery:
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-{% include gallery id="gallery"%}
+{% include gallery id="gallery" %}
 </figure>
 재택진료를 위한 앱의 UI/UX 디자인을 Illustrator기반으로 제작한 것입니다. 
 coldtect는 병원을 주제로 한 디자인작품이며, '내 손 안에 병원'이란 뜻을 가지고있습니다. 
