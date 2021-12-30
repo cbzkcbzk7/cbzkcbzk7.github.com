@@ -42,4 +42,4 @@ coldtect는 병원을 주제로 한 디자인작품이며, '내 손 안에 병�
 
 | Toolkit   |  
 | -------- | 
-|Illustrator, InDesign|
+|Illustrator, InDesign, Photoshop|
