@@ -5,16 +5,16 @@ categories:
 tags:
 - UI/UX
 gallery:
-- url: "/assets/images/pic7.png"
-  image_path: "/assets/images/pic7.png"
+- url: "/assets/images/pic7.PNG"
+  image_path: "/assets/images/pic7.PNG"
   alt: placeholder image 7
   title: Image 7 title caption
-- url: "/assets/images/pic8.png"
-  image_path: "/assets/images/pic8.png"
+- url: "/assets/images/pic8.PNG"
+  image_path: "/assets/images/pic8.PNG"
   alt: placeholder image 8
   title: Image 28 title caption
-- url: "/assets/images/pic9.png"
-  image_path: "/assets/images/pic9.png"
+- url: "/assets/images/pic9.PNG"
+  image_path: "/assets/images/pic9.PNG"
   alt: placeholder image 9
   title: Image 28 title caption
 ---
@@ -24,7 +24,7 @@ gallery:
 
 
 {% capture fig_img %}
-![Foo]({{ "/assets/images/pic10.png" | relative_url }})
+![Foo]({{ "/assets/images/pic10.PNG" | relative_url }})
 {% endcapture %}
 
 <figure>
