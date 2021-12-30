@@ -6,5 +6,5 @@ main:
      url: /about/
    - title: "Project"
      url: /post/
-   - title: "Communication"
-     url: /post/
+   # title: "Communication"
+    # url: /post/
