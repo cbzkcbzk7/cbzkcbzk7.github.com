@@ -19,7 +19,7 @@ locale: "ko-KR"
 title: "Sora's portfolio"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "PARK SORA"
+name: "PAK SORA"
 description: #
 url: "https://cbzkcbzk7.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -115,7 +115,7 @@ author:
       url: "https://github.com/cbzkcbzk7"
     - label: "Blog"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/cbzkcbzk7"
+      url: "https://cbzkcbzk7.github.io"
 
 # Site Footer
 footer:
@@ -125,7 +125,7 @@ footer:
       url: "https://github.com/cbzkcbzk7"
     - label: "Blog"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/cbzkcbzk7"
+      url: "https://cbzkcbzk7.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:psora93@gmail.com"
