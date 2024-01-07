@@ -2,10 +2,10 @@
 main:
   - title: "Home"
     url: https://cbzkcbzk7.github.io/
-  - title: "About"
-    url: /about/
-  - title: "Project"
-    url: /post/
+  # - title: "About"
+  #   url: /about/
+  # - title: "Project"
+  #   url: /post/
   - title: "Blog"
     url: /blog/
   # title: "Communication"
