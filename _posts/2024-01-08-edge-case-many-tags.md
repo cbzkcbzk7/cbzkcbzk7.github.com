@@ -1,7 +1,7 @@
 ---
 title: "[JAVA]자바란?(Java Programming Language)"
 categories:
-  - Java
+  - JAVA/Java
 tags:
   - Java
 gallery:
