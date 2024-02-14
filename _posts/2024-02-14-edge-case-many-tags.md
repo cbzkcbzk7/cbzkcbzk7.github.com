@@ -1,0 +1,96 @@
+---
+title: "[Stream] 스트림"
+categories:
+  - STREAM
+tags:
+  - 스트림
+gallery:
+  - url: "/assets/images/jvm.png"
+    image_path: "/assets/images/jvm.png"
+    alt: placeholder image 1
+    title: Image 1 title caption
+#   - url: "/assets/images/pic2.png"
+#     image_path: "/assets/images/pic2.png"
+#     alt: placeholder image 2
+#     title: Image 2 title caption
+# gallery2:
+#   - url: "/assets/images/pic4.png"
+#     image_path: "/assets/images/pic4.png"
+#     alt: placeholder image 4
+#     title: Image 4 title caption
+---
+
+> <b>Stream(스트림)<br><span style="color:red;">다양한 데이터 소스를 표준화된 방법으로 다룸</span></b><br>
+
+<!-- <figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+{% include gallery id="gallery"%}
+</figure> -->
+
+> <h2><span style="font-size:16.7px;">스트림이란?</span></h2>
+
+<span style="font-size:16.7px;">스트림은 데이터소스를 추상화하고, 데이터를 다루는데 자주 사용되는 메서드들을 정의해 놓았다. <span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>데이터 소스를 추상화하였다는 것은, 데이터 소스가 무엇이던 간에 같은 방식으로 다룰 수 있게 되었다는 것과 코드의 재사용성이 높아진다는 것을 의미한다.</b></span> 스트림을 이용하면, 배열이나 컬렉션뿐만 아니라 파일에 저장된 데이터도 모두 같은 방식으로 다룰 수 있다.<br><br>예를 들어, 문자열 배열과 같은 내용의 문자열을 저장하는 List가 있을 때,<br></span>
+
+```java
+String[] strArr = {"aaa", "ddd", "ccc"};
+List<String> strList = Arrays.asList(strArr);
+```
+
+<span style="font-size:16.7px;">이 두 데이터 소스를 기반으로 하는 스트림은 다음과 같이 생성한다.</span>
+
+```java
+Stream<String> strStream1 = Arrays.stream(strArr); // 스트림을 생성
+Stream<String> strStream2 = strList.stream();      // 스트림을 생성
+```
+
+<span style="font-size:16.7px;">이 두 스트림으로 데이터 소스의 데이터를 읽어서 정렬하고 화면에 출력하는 방법은 다음과 같다. <span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>두 스트림의 데이터 소스는 서로 다르지만, 정렬하고 출력하는 방법은 완전히 동일하다.</b></span> 데이터 소스가 정렬되는 것은 아니라는 것에 유의</span>
+
+```java
+strStream1.sorted().forEach(System.out::println);
+strStream2.sorted().forEach(System.out::println);
+```
+
+<span style="font-size:16.7px;"><b><span style="box-shadow: inset 0 -10px 0 yellow; ">사용하는 방법</span></b><br></span>
+
+<p style="font-size:16.7px;">1. 스트림 만들기</p> 
+<p style="font-size:16.7px;">2. 중간연산(0~n번) : 연산결과가 스트림인 연산. 반복적으로 적용가능</p>  
+<p style="font-size:16.7px;">3. 최종연산(0~1번) : 연산결과가 스트림이 아닌 연산, 단 한버만 적용가능(스트림의 요소를 소모)</p>
+
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>멀티 쓰레드(multi-thread) 프로그래밍에서는 하나의 객체를 여러 쓰레드가 동시에 접근할 수 있기 때문에 데이터의 일관성(consistency)을 유지하기 위해서는 공유되는 객체에 동기화(synchronization)가 필요하다.</b></span><br> Vector와 Hashtabler과 같은 구버젼(JDK1.2 이전)의 클래스들은 자체적으로 동기화 처리가 되어 있는데, 멀티쓰레드 프로그래밍이 아닌 경우에는 불필요한 기능이 되어 성능을 떨어뜨리는 요인이 된다. 그래서 새로 추가된 ArrayList와 HashMap과 같은 컬렉션은 동기화를 자체적으로 처리하지 않고 필요한 경우에만 Collections클래스의 동기화 메서드를 이용해서 동기화처리가 가능하도록 변경하였다.</span><br><br>
+
+> <h3>특징</h3>
+
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>1. 스트림은 데이터 소스를 변경하지 않는다.</b></span><br>
+스트림은 데이터 소스로부터 데이터를 읽기만할 뿐, 데이터 소스를 변경하지 않는다.</span><br><br>
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>2. 스트림은 일회용이다.</b></span><br>
+스트림은 Iterator처름 일회용이다. 한번 사용하면 닫혀서 다시 사용할 수 없어서 필요하다면 스트림을 다시 생성해야한다.</span><br><br>
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>3. 스트림은 작업을 내부 반복으로 처리한다.</b></span><br>
+스트림을 이용한 작업이 간결할 수 있는 비결중의 하나가 바로 '내부 반복'이다. 내부 반복이라는 것은 반복문을 메서드의 내부에 숨길 수 있다는 것을 의미한다. forEach()는 스트림에 정의된 메서드 중의 하나로 매개변수에 대입된 람다식을 데이터 소스의 모든 요소에 적용한다.</span>
+
+```java
+for(String str : strList)
+  System.out.println(str);
+// 위,아래 동일한 반복문 출력코드
+stream.forEach(System.out::println);
+```
+
+<br><br>
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>4. 최종 연산 전까지 중간연산이 수행되지 않는다. - 지연된 연산</b></span></span>
+
+```java
+IntStream intStream = new Random().ints(1,46); // 1~45범위의 무한 스트림
+intStream.distinct().limit(6).sorted()         // 중간 연산
+          .forEach(i -> System.out.print(i+", ")); // 최종 연산
+```
+
+<span style="font-size:16.7px;">위의 코드만 보면 무한 스트림에 대해 중복제거를 먼저하는 것은 말이 안된다. 중간 연산을 호출하는 것은 단지 어떤 작업이 수행되어야하는지를 지정해주는 것일 뿐이다. 최종 연산이 수행되어야 비로소 스트림의 요소들이 중간 연산을 거쳐 최종 연산에서 소모된다.</span><br><br>
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>5. 기본형 스트림 - IntStream, LongStream, DoubleStream..</b></span><br>
+오토박싱&언박싱의 비효율이 제거된다. 일반적으로 Stream<Integer>대신 IntStreamd을 사용하는 것이 더 효율적이고, IntStream에는 int타입의 값으로 작업하는데 유용한 메서드들이 포함되어 있다.</span><br><br>
+<span style="font-size:16.7px;"><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>6. 병렬 스트림</b></span><br>
+스트림을 병렬스트림으로 처리하면 멀티쓰레드가 가능해진다.</span><br><br>
+
+| 참고                  |     |
+| --------------------- | --- |
+| 자바의 정석 - 남궁 성 |     |
+
+<br>
