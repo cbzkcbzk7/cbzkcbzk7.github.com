@@ -1,9 +1,9 @@
 ---
 title: "[OOP] 객체지향언어"
 categories:
-  - JAVA/OOP
+  - JAVA
 tags:
-  - 객체지향
+  - 객체지향(OOP)
 gallery:
   - url: "/assets/images/jvm.png"
     image_path: "/assets/images/jvm.png"

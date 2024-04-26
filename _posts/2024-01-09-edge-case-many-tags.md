@@ -1,9 +1,9 @@
 ---
 title: "[JAVA] JVM(Java Virtual Machine)"
 categories:
-  - JAVA/JVM
+  - JAVA
 tags:
-  - Java
+  - JVM
 gallery:
   - url: "/assets/images/jvm.png"
     image_path: "/assets/images/jvm.png"

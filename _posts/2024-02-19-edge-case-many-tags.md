@@ -1,9 +1,9 @@
 ---
-title: "[Stream] 스트림"
+title: "[Lambda expression] 람다식"
 categories:
   - LAMBDA/STREAM
 tags:
-  - 스트림(Stream)
+  - 람다(Lambda)
 gallery:
   - url: "/assets/images/jvm.png"
     image_path: "/assets/images/jvm.png"
@@ -20,7 +20,7 @@ gallery:
 #     title: Image 4 title caption
 ---
 
-> <b>Stream(스트림)<br><span style="color:red;">다양한 데이터 소스를 표준화된 방법으로 다룸</span></b><br>
+> <b>Lambda(람다)<br><span style="color:red;">메서드를 하나의 '식(expression)'으로 표현한 것</span></b><br>
 
 <!-- <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
