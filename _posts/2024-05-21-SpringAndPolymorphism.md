@@ -23,7 +23,7 @@ gallery:
 > <b>Spring<br><span style="color:red;">자바 언어 기반의 프레임워크</span></b><br><span style="font-size:15px">스프링은 객체 지향 언어가 가진 가장 큰 특징을 살려내는 프레임워크이다.</span>
 
 <h3>왜 스프링과 다형성을 함께 사용하면<br>다형성의 장점이 극대화될까?</h3>
-<span style="font-size:16.7px; font-style:nomal;">이전에 다형성에 대해 포스트했듯이 다형성의 가장 큰 특징은 변경과 확장에 유연하다.<br>링크 <br><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>이 말은 컴포넌트를 유연하게 변경할 수 있다는 것이다.</b></span><br><br>실세계를 예로 들어보면<br>운전자와 자동차가 있다. 운전자는 자동차를 바꾸려고 한다.<br>이때 운전자는 부가티로 바꾸든 벤틀리로 바꾸든 포르쉐로 바꾸든 운전을 할 수 있다.<br>
+<span style="font-size:16.7px; font-style:nomal;">이전에 다형성에 대해 포스트했듯이 다형성의 가장 큰 특징은 변경과 확장에 유연하다.<br><b>[다형성 포스트:polymorphism](https://cbzkcbzk7.github.io/java/Polymorphism/)</b><br><span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>이 말은 컴포넌트를 유연하게 변경할 수 있다는 것이다.</b></span><br><br>실세계를 예로 들어보면<br>운전자와 자동차가 있다. 운전자는 자동차를 바꾸려고 한다.<br>이때 운전자는 부가티로 바꾸든 벤틀리로 바꾸든 포르쉐로 바꾸든 운전을 할 수 있다.<br>
 </span>
 
 <!-- ```html

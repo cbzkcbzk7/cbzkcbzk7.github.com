@@ -228,7 +228,8 @@ static void makeOptions(EspressoMachine em, int shot, boolean temperature){
 
 ```
 
-<span style="font-size:16.7px;"> <span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>다형성의 가장 큰 특징으로는 유연하고 변경이 용이하다는 것이다.</b></span>위의 코드처럼 새로운 커피가 출시되어도 공통 멤버인 makeOptions()는 변경할 필요도, 메서드를 추가할 필요도 없다.여기까지가 자바 객체지향의 다형성이다. <br><br>사실 다형성은 유연하고 변경에 용이해야하므로 구현체를 참조하는 것은 좋은 방향이 아니다.<br><br>그렇다면?<br>추상클래스나 인터페이스를 이용한 다형성을 사용하면 되는데 여기서 스프링과 함께 사용할 때 다형성의 장점은 극대화된다.<b>
+<span style="font-size:16.7px;"> <span style="box-shadow: inset 0 -10px 0 #D9FCDB; "><b>다형성의 가장 큰 특징으로는 유연하고 변경이 용이하다는 것이다.</b></span>위의 코드처럼 새로운 커피가 출시되어도 공통 멤버인 makeOptions()는 변경할 필요도, 메서드를 추가할 필요도 없다.여기까지가 자바 객체지향의 다형성이다. <br><br>사실 다형성은 유연하고 변경에 용이해야하므로 구현체를 참조하는 것은 좋은 방향이 아니다.<br><br>그렇다면?<br>추상클래스나 인터페이스를 이용한 다형성을 사용하면 되는데 여기서 스프링과 함께 사용할 때 다형성의 장점은 극대화된다.<b><br>
+[스프링과다형성 포스트:spring&polymorphism](https://cbzkcbzk7.github.io/spring/SpringAndPolymorphism/)
 
 > 결론<br><b>다형성은 코드의 중복을 줄이면서 변경과 확장에 유연한 '객체 지향적인 코드'를 작성하는데 유용하다</b>
 
